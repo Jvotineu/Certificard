@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+body {
+  background: rgb(63, 196, 251);
+  background: linear-gradient(90deg,
+      rgba(63, 196, 251, 1) 0%,
+      rgba(70, 252, 183, 1) 100%);
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #063942;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(63, 196, 251, 1);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.projetos {
+  margin-top: 09px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projetos {
+  background: rgb(63, 196, 251);
+  background: linear-gradient(90deg,
+      rgba(63, 196, 251, 1) 0%,
+      rgba(70, 252, 183, 1) 100%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos li {
+  font-weight: 400;
+  font-size: 20px;
+  list-style: none;
+}
+
+.projetos a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.projetos a:hover {
+  color: #0eac20;
+  cursor: pointer;
+}
+
+.projetos ul {
+  text-align: center;
+  font-weight: 800;
+  font-size: 32px;
+}
